@@ -1,0 +1,99 @@
+.content {
+
+    width: 80%;
+    margin: 50px auto 0;
+
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+
+        margin: 30px auto;
+
+        font-size: 42px;
+    }
+
+    ul {
+        margin: 50px auto;
+        list-style: none;
+
+        a {
+            display: block;
+        }
+    }
+
+    li > a {
+
+        padding: 10px;
+
+        font-size: 22px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: .2s;
+
+        &:hover {
+            background-color: #8ae4bf;
+            color: #000;
+        }
+
+        &:active {
+            background-color: #fff;
+        }
+
+    }
+
+    .link-menu {
+
+        margin: 0 auto;
+    }
+
+    .show {
+
+        margin: 50px auto 0;
+
+        .form-group {
+
+            font-size: 22px;
+
+            label {
+                display: inline-block;
+
+                width: 150px;
+                margin: 10px 0;
+
+                color: #000;
+            }
+
+            input, select {
+                width: 200px;
+                padding: 5px;
+
+                border-radius: 5px;
+
+                border: solid 1px #000;
+            }
+
+            .description {
+                display: inline-block;
+                width: 400px;
+                height: 50px;
+                overflow-y: scroll;
+            }
+
+        }
+
+        .button {
+            width: 100%;
+            margin: 20px 0;
+            text-align: center;
+
+            .btn {
+                height: 40px;
+                width: 100px;
+
+                margin-left: 10px;
+            }
+        }
+    }
+}
